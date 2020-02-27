@@ -196,6 +196,8 @@ article {
   outline:2px solid #000000;
   outline-offset:0;
   transition:0;
+  background: inhert;
+  color:#fff !important;
 }
 .button:active {
   top:2px;
