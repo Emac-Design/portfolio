@@ -84,7 +84,7 @@ nav {
   font-weight:600;
 }
 .navbar-brand:hover, .nav-link:hover {
-  background-color:#ced4da !important;
+  background-color:#FFFFFF !important;
   box-shadow:0 3px 0 0 black !important;
 } 
 .navbar-brand:focus, .nav-link:focus {
