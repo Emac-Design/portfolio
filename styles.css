@@ -69,7 +69,7 @@ li {
 nav {
   background-color:#21273d;
 }
-.navbar-nav, .nav-item, .nav-link {
+.navbar-brand, .navbar-nav, .nav-item, .nav-link {
   color:#FFFFFF !important;
   font-weight:600;
   padding: 5px 10px !important;
