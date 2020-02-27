@@ -141,13 +141,12 @@ button, .navbar-toggler {
   margin:15px 0;
 }
 .portfolio-card--body {
-  padding: 10px 15px;
-  border-radius:15px;
   background: #ffffff;
-  box-shadow: 0 0 3px 5px #B8E8E5;
+  border:5px solid #21273d;
+  padding: 10px 15px;
 }
 .portfolio-card--title, h2 {
-    padding: 15px 0px;
+   padding: 15px 0px;
 }
 .portfolio-card--text {
   margin: 10px 0;
