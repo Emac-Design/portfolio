@@ -146,6 +146,12 @@ article {
 }
 .article-body {
   padding: 20px 20px;
+  margin-top:15px;
+}
+@media (max-width:768px;) {
+  article-body {
+    padding:15px;
+  }
 }
 .article-body h3 {
   margin-bottom: 15px;
