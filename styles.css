@@ -131,6 +131,9 @@ button, .navbar-toggler {
   margin: 25px 0;
   color:#21273d;
 }
+.hero-wrapper p {
+  color:#21273d;
+}
 @media (max-width:736px) {
   .hero-wrapper h1{
     font-size:36px;
