@@ -149,6 +149,9 @@ article {
 .article-body h3 {
   margin-bottom: 15px;
 }
+.article-body-link {
+  padding:20px 20px;
+}
 .button {
   background-color:#384164;
   color:#fff;
@@ -186,7 +189,7 @@ article {
   transition-timing-function: ease-out;
 }
 .button:hover {
-  color: #fff;
+  color: #fff !important;
 }
 .button:focus {
   outline:2px solid #000000;
