@@ -142,6 +142,7 @@ button, .navbar-toggler {
 /*Portfolio section*/
 article {
   border: 5px solid #21273d;
+  margin:30px 0;
 }
 .article-body {
   padding: 20px 20px;
