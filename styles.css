@@ -72,24 +72,21 @@ nav {
 .navbar-brand, .navbar-nav, .nav-item, .nav-link {
   color:#FFFFFF !important;
   font-weight:600;
+  text-decoration:underline;
   padding: 5px 10px !important;
 }
 @media (max-width:768px) {
-  .navbar-nav, .nav-item, .nav-link {
+  .navbar-brand, .navbar-nav, .nav-item, .nav-link {
     padding:5px 0 !important;
   }
 }
-.navbar-brand {
-  color:#FFFFFF !important;
-  font-weight:600;
-}
 .navbar-brand:hover, .nav-link:hover {
-  background-color:#FFFFFF !important;
-  box-shadow:0 3px 0 0 black !important;
+  color:#FFF !important;
+  text-decoration:underline;
 } 
 .navbar-brand:focus, .nav-link:focus {
-  background-color:#ced4da !important;
-  box-shadow:0 0 0 3px black !important;
+  background-color:#fff !important;
+  box-shadow:0 0 0 3px #2A6EDA !important;
 }
 .nav-link:focus
 button, .navbar-toggler {
