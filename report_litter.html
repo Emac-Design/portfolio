@@ -44,14 +44,75 @@
         <section class="body-content">
           <div class="container">
             <h2>Background</h2>
-            <h2>User research and user needs</h2>
-              <h3>External user needs</h3>
-              <h3>Internal user needs</h3>
-            <h2>Design and interactions</h2>
+            <p>The contract for our reporting forms (like Report Litter) was due to expire at the end of October 2019. These used a different forms platform called Abavus.</p>
+            <p>This form that I've built was one of a eight forms that needed rebuilding for the group up into our main forms platform (Achieve Forms). Of these eight forms, I built 3 of them.</p>
+            <p>The old forms platform had workflow built into them so that our Street Cleansing team can view all the information given by a resident.</p>
+
+          <h2>User needs</h2>
+
+          <p>Some of the user needs are included below.</p>
+
+            <h3>External user needs</h3>
+
+              <blockquote>
+                <p>As a resident, I want to show you photos of the issue, so that you know exactly where the problem is.</p>
+              </blockquote>
+              <blockquote>
+                <p>As a resident, I want to be updated on my report by text, so that I don't have to chase you for the outcome.</p>
+              </blockquote>
+              <blockquote>
+                <p>As a resident, I want show you where the litter is on a map, so that you know exactly where it is.</p>
+              </blockquote>
+
+            <h3>Internal user needs</h3>
+
+              <blockquote>
+                <p>As part of the Street Cleansing Team, I need to sign a report off, using a mobile device.</p>
+              </blockquote>
+              <blockquote>
+                <p>As part of the Street Cleansing Team, I need a map showing me where the report is, so that I can find it easily.</p>			
+              </blockquote>
+              <blockquote>
+                <p>As  the manager of the Street Cleansing Team, I need to see whether requests are being signed off in time, to make sure we meet our Service Level Agreement (SLA).</p>
+              </blockquote>
+
+          <h2>Design</h2>
+          
+           <figure>
+              <img src="Agile_For_Teams_Eleven.jpg" alt="Re-ordering a process map">
+            </figure>
+            <a class="button" href="https://self.maidstone.gov.uk/service/report_litter">View the process</a>
+
+          <p>Part of the building this user centered process involved building a back end work flow for our Street Cleansing Team to sign off each report once it was completed.</p>
+          <p>I followed the best practise of Government Digital Service and the NHS in only having one question or theme of questions per page. This is to make the experience of handling user error is as simple and as easy to fix as possible.</p>
+          
+          <h2>Design and interactions</h2>
+          
+            <p>This has been in live beta since 01/10/2019 and has one of our highest form completion rates at 75%. This evidences that this new process is a drastic improvement from the previous form.</p> 
             
+            <h3>The map</h3>
+              <p>The first version of the form included a map to locate the area where the litter or litter bin is. However, there was no manual search for the map, meaning that a user would have to locate the area purely using their fingers. This was a major accessibility issue but it also hindered the usability of the map as we have a lot of public litter bins in rural locations - local knowledge would be needed to find them.</p>
+              <p>
+                
+            <h3>Component based design</h3>
+            
+            <h3>Providing updates</h3>
+            
+              <p>The next iteration will involve more detailed text messages as to why we have dealt with or cannot deal with their report.</p>
+            
+            <h3>Design system</h3>
+            
+              <p>I'll also be looking at the design of all the reporting forms to improve the way the we use alerts and in-page notifications. There's currently no best practise or guidelines on when and how to use them - this will be the first component of our corporate design system.</p> 
+           
             <h3>Workflow</h3>
-              <img src="Report_Litter_Workflow.JPG" alt="Workflow diagram for the Report Litter form">
-            <h2>The future</h2>
+              
+            <img src="Report_Litter_Workflow.JPG" alt="Workflow diagram for the Report Litter form">
+         
+          <h2>The future</h2>
+            <p>I'll be looking into the way that cases are assigned to the crew. It's a manual job that the superviser has to do so the next iteration I'll look at ways of distrubing reports based on the location so remove a complication from the process.</p>
+            <p>One of the re-occuring user needs wanted previous reports plotted on a map so that they know whether to report it or not.</p>
+            <p>I'm in the process of building a database lookup which will run when the map has loading. This look up will find all open cases within the last fourteen days and then populate those open cases on the map. When the marker is opened - it'll tell you what type of report it is and when it was reported.</p>
+            <p>The lookup is working and populating into the map, however, futher research is needed as an existing case plotted on the map has a different coloured marker to the user selecting a location in the map.</p>
           </div>
         </section>
         </div>
