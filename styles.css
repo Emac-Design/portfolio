@@ -259,6 +259,9 @@ img {
   width:100%;
 }
 /*Footer*/
+footer {
+  margin-top:50px;
+}
 .footer-wrapper {
   background-color:#f8f9fa;
   border-top: 10px solid #384164;
