@@ -84,12 +84,13 @@ nav {
   }
 }
 .navbar-brand:hover, .nav-link:hover {
-  color:#FFF !important;
-  text-decoration:underline;
+  color:#212529 !important;
+  background-color:#fff;
+  text-decoration:underline; 
 } 
 .navbar-brand:focus, .nav-link:focus {
   background-color:#fff !important;
-  box-shadow:0 0 0 3px #2A6EDA !important;
+  box-shadow:0 0 0 5px #2A6EDA !important;
 }
 .nav-link:focus
 button, .navbar-toggler {
